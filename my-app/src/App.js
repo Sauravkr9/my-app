@@ -33,7 +33,7 @@ function App() {
   }
   return (
     <>       
-        <Navbar mode={mode} togglemode={togglemode} txt={txt} />
+        <Navbar mode={mode} togglemode={togglemode} txt={txt}text="textUtils" />
         <Alert alert={alert} />
         <div className="container">
           <Form heading="enter the text" mode={mode} showalert={showalert} />
